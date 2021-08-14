@@ -1,0 +1,59 @@
+body{
+    background:whitesmoke;
+           
+    text-align: left;
+    }
+li{
+display:inline
+}
+.vis{
+    word-spacing: 0px;
+ 
+}
+.vis p1{
+        font-weight: bolder;
+        font-size: 35px;
+        color: rgb(22, 53, 99);
+        text-decoration-line: underline;
+        text-decoration-color:black ;
+}
+.vis p2{
+        font-weight: bolder;
+        font-size: 25px;
+        color: rgb(11, 52, 112);
+        text-decoration-line: underline;
+        text-decoration-color:rgb(136, 25, 25) ;
+}
+.vis p{
+        font-weight: bolder;
+        font-size: 15px;
+        color: rgb(51, 16, 5);
+}
+.vis p3{
+        font-weight: bolder;
+        font-size: 20px;
+        color: rgb(59, 12, 41);
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    float: left;
+}
+nav a{
+
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav a:hover{
+    background: rgb(238, 241, 241);
+    color: black;
+}

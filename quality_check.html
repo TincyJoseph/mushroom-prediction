@@ -1,0 +1,75 @@
+<html>
+<head>
+<link rel="stylesheet"href="../static/css/main.css">
+     <link rel="stylesheet" href="../static/css/style.css">
+     <header>
+            <div class="container">
+                <h1 class="logo">Mushroom Cultivation</h1>
+                <strong><nav>
+                <ul class="menu">
+                    <li><a href="{{url_for('home')}}">Home</a></li>
+                    <li><a href="{{url_for('types')}}">Types</a></li>
+                    <li><a href="{{url_for('health_tip')}}">Health tip</a></li>
+                    <li><a href="{{url_for('quality_check')}}">Quality_check</a></li>
+                    <li><a href="{{url_for('visualization')}}">Visualization</a></li>
+                    <li><a href="{{url_for('result')}}">result</a></li>
+                </ul>
+          
+            </nav></strong>
+            </div> 
+        </header>
+</head>
+<body>
+<h2>Check Mushroom is edible or poisonous</h2>
+<div class="input form">
+    <form action="{{url_for('quality_check')}}" method="POST">
+    <h6>Enter cap-shape</h6>
+    <input type="text" id="cap-shape" name="cap-shape" placeholder="Enter x,f,k,b,f or c">
+    <h6>Enter cap-surface</h6>
+    <input type="text" id="cap-surface" name="cap-surface" placeholder="Enter y,s,f or g">
+    <h6>Enter cap-color</h6>
+    <input type="text" id="cap-color" name="cap-color" placeholder="Enter n,g,e,y,w,b,p,c,l,b,r,u">
+    <h6>Enter bruises</h6>
+    <input type="text" id="bruises" name="bruises" placeholder="Enter f or t">
+    <h6>Enter odor</h6>
+    <input type="text" id="odor" name="odor" placeholder="Enter a,l,c,f,s,m,n,p">
+    <h6>Enter gill-attachment</h6>
+    <input type="text" id="gill-attachment" name="gill-attachment" placeholder="Enter a,d,f,n">
+    <h6>Enter gill-spacing</h6>
+    <input type="text" id="gill-spacing" name="gill-spacing" placeholder="Enter c,w,d">
+    <h6>Enter gill-size</h6>
+    <input type="text" id="gill-size" name="gill-size" placeholder="Enter b or n">
+    <h6>Enter gill-color</h6>
+    <input type="text" id="gill-color" name="gill-color" placeholder="Enter k,n,b,h,g,r,o,p,u,e,w,y">
+    <h6>Enter stalk-shape</h6>
+    <input type="text" id="stalk-shape" name="stalk-shape" placeholder="Enter e or t">
+    <h6>Enter stalk-surface-above-ring</h6>
+    <input type="text" id="stalk-surface-above-ring" name="stalk-surface-above-ring" placeholder="Enter f,y,k,s">
+    <h6>Enter stalk-surface-below-ring</h6>
+    <input type="text" id="stalk-surface-below-ring" name="stalk-surface-below-ring" placeholder="Enter f,y,k,s">
+    <h6>Enter stalk-color-above-ring</h6>
+    <input type="text" id="stalk-color-above-ring" name="stalk-color-above-ring" placeholder="Enter n,b,c,g,o,p,e,w,y">
+    <h6>Enter stalk-color-below-ring</h6>
+    <input type="text" id="stalk-color-below-ring" name="stalk-color-below-ring" placeholder="Enter n,b,c,g,o,p,e,w,y">
+    <h6>Enter veil-type</h6>
+    <input type="text" id="veil-type" name="veil-type" placeholder="Enter p,u">
+    <h6>Enter veil-color</h6>
+    <input type="text" id="veil-color" name="veil-color" placeholder="Enter n,o,w,y">
+    <h6>Enter ring-number</h6>
+    <input type="text" id="ring-number" name="ring-number" placeholder="Enter n,o,t">
+    <h6>Enter ring-type</h6>
+    <input type="text" id="ring-type" name="ring-type" placeholder="Enter c,e,f,l,n,p,s,z">
+    <h6>Enter spore-print-color</h6>
+    <input type="text" id="spore-print-color" name="spore-print-color" placeholder="Enter k,n,b,h,r,o,y,u,w">
+    <h6>Enter population</h6>
+    <input type="text" id="population" name="population" placeholder="Enter a,c,n,s,v,y">
+    <h6>Enter habitat</h6>
+    <input type="text" id="habitat" name="habitat" placeholder="Enter g,l,m,p,u,w,d">
+    
+    <br>
+    <br>
+    <button id="submit" type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>

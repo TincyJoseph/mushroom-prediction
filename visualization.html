@@ -1,0 +1,70 @@
+<html>
+<head>
+<link rel="stylesheet"href="../static/css/main.css">
+     <link rel="stylesheet" href="../static/css/style.css">
+     <header>
+            <div class="container">
+                <h1 class="logo">Mushroom Cultivation</h1>
+                <strong><nav>
+                <ul class="menu">
+                    <li><a href="{{url_for('home')}}">Home</a></li>
+                    <li><a href="{{url_for('types')}}">Types</a></li>
+                    <li><a href="{{url_for('health_tip')}}">Health tip</a></li>
+                    <li><a href="{{url_for('quality_check')}}">Quality_check</a></li>
+                    <li><a href="{{url_for('visualization')}}">Visualization</a></li>
+                </ul>
+          
+            </nav></strong>
+            </div> 
+        </header>
+</head>
+<body>
+    <div class="vis">
+        <p1>VISUALIZATION :</p1><br>
+        <br><p2>1.Analysing Habitat for Edible Mushroom: </p2><br>
+        <p>grasses=g<br>
+            leaves=l<br>
+            meadows=m<br>
+            paths=p<br>
+            urban=u<br>
+            waste=w<br>
+            woods=d</p>
+        <p3>Analysing Habitat for Edible Mushroom:</p3>    
+        <img src="../static/images/ediblewithhabitat.jpg" height:="5";class="center"/><br>
+        <br><p3>The habitat type count shows the Wood and Grasses type is more.</p3><br>
+        <br><p3>Analysing Habitat for poisonous Mushroom:</p3>
+        <img src="../static/images/poisonwithhabitat.jpg" height:="5";class="center"/><br><br>
+        <p3>The habitat type count shows the Wood and paths type is more.</p3><br>
+        <p2>Analysis With Odor of Mushroom</p2>
+        <br><p>The odor is main part in Mushroom identification process.<br> Many of us don't know what is odor of Mushroom(Poisonous/Edible).<br> Here in Dataset the odor is Provided as below with their notation.</p><br>
+        <p>almond=a<br>
+            anise=l<br>
+            creosote=c<br>
+            fishy=y<br>
+            foul=f<br>
+            musty=m<br>
+            none=n<br>
+            pungent=p<br>
+            spicy=s</p>
+        <p3>Analysing Odor for Edible Mushroom:</p3>
+        <img src="../static/images/eo.jpg" height:="5";class="center"/><br><br>
+        <p3>No odor is more common for edible mushrooms</p3><br>
+        <br><p3>Analysing Odor for Poisonous Mushroom:</p3>
+        <img src="../static/images/po.jpg" height:="5";class="center"/><br><br>
+        <p3>Foul odor is more common in poisonous mushrooms</p3>
+        
+        
+
+        
+
+        
+
+
+
+
+
+    </div>
+
+
+</body>
+</html

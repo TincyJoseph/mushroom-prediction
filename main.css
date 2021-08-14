@@ -1,0 +1,18 @@
+body{
+    margin:0;
+    padding: 0%;
+    color: rgb(90, 29, 11);
+    font-size: larger;
+    display: block;
+    box-sizing: border-box;
+            
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color:rgb(156, 115, 85);
+    height:100px;
+    widows: 100%;
+    opacity: .9;
+    font-size: medium;
+}
